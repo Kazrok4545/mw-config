@@ -2483,7 +2483,12 @@ $wgConf->settings = [
 			'template',
 			'extendedconfirmed',
 			'owner'
-		],
+		], 
+                '+wikitestwiki' => [
+                 'bureaucrat',
+                 'Консул'
+                ],
+
 	],
 	'wgRestrictionTypes' => [
 		'default' => [
